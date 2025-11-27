@@ -35,3 +35,23 @@ int main() {
 
   return 0;
 }
+
+explanation:
+Recursion is useful because:
+
+Each year’s loan depends on previous year's remaining loan
+
+The state naturally progresses step-by-step
+
+Easy to modify for:
+
+Extra payments
+
+Changing interest
+
+Balloon payments
+
+Missed payments
+
+Each recursive call handles one year, just like a real repayment schedule.
+
